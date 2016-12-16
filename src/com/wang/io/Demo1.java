@@ -13,23 +13,7 @@ public class Demo1 {
 	/**
 	 * 创建文件。
 	 */
-	public void myFile1() {
-		// 路径
-		String path = "e:/aaa.txt";
-		
-		// File类
-		File file = new File(path);
-		
-		// 创建
-		try {
-			boolean succ = file.createNewFile();
-			System.out.println("succ:" + succ);
-			
-		} catch (IOException e) {
-			e.printStackTrace();
-			
-			System.out.println("创建文件失败！");
-		}
+	
 	}
 
 	/**
