@@ -1,28 +1,20 @@
 package com.miao.demo1;
 
   /*
-   * ×ÓÀà£º
-   * ÊôĞÔ:id
-   * ·½·¨:Ñ§Ï°
+   * å­ç±»ï¼š
+   * å±æ€§:id
+   * æ–¹æ³•:å­¦ä¹ 
    */
 public class Student extends Person{
 	
-	//ÊôĞÔ
+	//å±æ€§
 	public String name1="1";
 	private String id;
-	//¹¹Ôì
-//	public Student(String name,int age){
-//		super(name, age);
-//	}
-//	
-//	public Student(String name,int age,String id){
-//		super(name, age);
-//		this.id = id;
-//	}
-	//·½·¨
+
+	//æ–¹æ³•
 	public void play() {
 		
-		System.out.println(getName() +"Ñ§Ï°ÖĞ");
+		System.out.println(getName() +"å­¦ä¹ ä¸­");
 	}
 	
 	//getter setter
